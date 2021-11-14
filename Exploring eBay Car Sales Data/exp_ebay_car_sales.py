@@ -2,7 +2,8 @@
 Autor: Danilo de Sousa Lopes
 Data: Nov. 2021
 
-Este presente script apresenta a solução do guided project "Exploring eBay Car Sales Data" com a aplicação dos conceitos de Clean Code. Para mais detalhes da solução verifique a versão desenvolvida no jupyter notebook. 
+Este presente script apresenta a solução do guided project "Exploring eBay Car Sales Data" com a aplicação dos conceitos de Clean Code. Para mais detalhes da solução 
+verifique a versão desenvolvida no jupyter notebook. 
 '''
 
 # importando a biblioteca necessária.
