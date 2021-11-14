@@ -78,5 +78,5 @@ df_relation_brand = pd.DataFrame(series_mean_price, columns=['mean_price'])
 df_relation_brand['mean_odometer_km'] = series_mean_odometer
 df_relation_brand.sort_index()
 
-# após a análise dos preços médios e quilometragens méidas das 20 marcas mais comuns
+# após a análise dos preços médios e quilometragens médias das 20 marcas mais comuns
 # não podemos perceber uma relação direta entre os dois valores.
