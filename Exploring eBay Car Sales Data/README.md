@@ -36,6 +36,11 @@ Testar o script python utilizando o pylint.
 $ pylint nome_arquivo.py
 ```
 ## Resultados
-Na primeira avaliação feita pelo pylint, o script exp_ebay_car_sales não obteve um score aceitável, entretanto a ferramenta mostrou as devidas modificações necessárias.
+Na primeira avaliação feita pelo pylint, o script exp_ebay_car_sales.py não obteve um score aceitável, entretanto a ferramenta mostrou as devidas modificações necessárias.
+
+![score1](https://user-images.githubusercontent.com/77031612/141666428-0da0d4c5-c3eb-4e36-99de-3adec934309d.png)
 
 Após as modificações, obteve-se o score máximo, garantindo assim uma ótima padronização com relação ao padrão PEP8.
+
+![score2](https://user-images.githubusercontent.com/77031612/141666429-78eaf4d9-92f7-4c44-b37e-df2be11e4399.png)
+
