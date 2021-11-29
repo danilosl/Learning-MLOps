@@ -1,10 +1,13 @@
-# MLOps - Projeto Guiado Exploring eBay Car Sales Data
+# MLOps - Storytelling Data Visualization on Exchange Rates
 
-Neste projeto guiado, realizou-se o tratamento do conjunto de dados de carros usados do eBay kleinanzeigen, uma seção de classificados do site alemão eBay. 
+Ao desenvolver o projeto guiado buscou-se:
+ - Usar os prícipios do design de informação (familiaridade e maximização da proporção dados/tinta)
+ - Como criar visualizações de dados narrativos usando Matplotlib
+ - Como criar padrões visuais usando os princípios da Gestalt
+ - Como orientar a atenção do público com atributos pré-atenciosos.
+ - Como usar os estilos integrados do Matplotlib: com um estudo de caso sobre o estilo FiveThirtyEight.
 
-O objetivo deste projeto foi aplicar as principais técnicas de tratamento e limpeza de dados, abordados pelo curso *Pandas and Numpy Fundamentals* na plataforma *Dataquest.io*. 
-
-Foram implementados ainda, conceitos de código limpo e documentação de código para padronização *PEP8*, usando a biblioteca *pylint*.
+Iremos combinar essas habilidades, trabalhando com o conjunto de dados reunido por Daria Chemkaeva e disponibilizado no Kaggle, que descreve as taxas de câmbio diárias de diversas moedas entre 1999 e 2020. Nosso objeto de estudo será as taxas de câmbio do Real e do Dólar, em relação ao Euro, entre os Governos FHC e Bolsonaro, para a moeda brasileira e entre os Governos Bush e Biden, para a moeda americana.
 
 Ademais, esse projeto faz parte do conjunto de projetos avaliativos referentes a disciplina PROJETO DE SISTEMAS BASEADOS EM APRENDIZADO DE MÁQUINA sob orientação do professor Ivanovitch Silva.
 
@@ -17,6 +20,7 @@ Para o desenvolvimento do projeto foi necessário a utilização das seguintes t
 - Jupyter Notebook
 - Jupyter Lab
 - Pylint
+- Pytest
 - Pandas
 
 ## Instalação e Teste
@@ -36,11 +40,8 @@ Testar o script python utilizando o pylint.
 $ pylint nome_arquivo.py
 ```
 ## Resultados
-Na primeira avaliação feita pelo pylint, o script exp_ebay_car_sales.py não obteve um score aceitável, entretanto a ferramenta mostrou as devidas modificações necessárias.
 
-![score1](https://user-images.githubusercontent.com/77031612/141666428-0da0d4c5-c3eb-4e36-99de-3adec934309d.png)
 
-Após as modificações, obteve-se o score máximo, garantindo assim uma ótima padronização com relação ao padrão PEP8.
 
-![score2](https://user-images.githubusercontent.com/77031612/141666429-78eaf4d9-92f7-4c44-b37e-df2be11e4399.png)
+
 
