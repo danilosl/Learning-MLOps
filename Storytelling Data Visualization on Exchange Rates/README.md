@@ -40,8 +40,11 @@ Testar o script python utilizando o pylint.
 $ pylint nome_arquivo.py
 ```
 ## Resultados
+![euro_to_real](https://user-images.githubusercontent.com/77031612/143799310-3f2a2acc-4d1a-4795-abfb-1017eb855526.png)
 
+![dollar_to_real](https://user-images.githubusercontent.com/77031612/143799308-15dbeedb-e4ef-4f41-a75a-79f30f99019c.png)
 
+![euro_dollar_to_real](https://user-images.githubusercontent.com/77031612/143799309-2fe8d20c-66f2-498c-ad30-6a5a1a7e914a.png)
 
 
 
