@@ -14,7 +14,6 @@ logging.basicConfig(
     filemode='w',
     format='%(name)s - %(levelname)s - %(message)s')
 
-
 def read_data(file_path):
     '''
     Função para a ler e verificar o dataframe.csv
@@ -27,9 +26,9 @@ def read_data(file_path):
         dataframe = pd.read_csv(file_path)
         logging.info("SUCESSO: nenhum problema ao ler o arquivo!")
         return dataframe
-    except BaseException:  # pylint: disable=broad-except
+    except: # pylint: disable=broad-except
         logging.error(
-            "ERROR: não foi possível ler o arquivo %s", file_path)
+            "ERROR: não foi possível ler o arquivo %s",file_path)
         return None
 
 
@@ -46,8 +45,8 @@ def calc_rolling_mean(coluna, janela):
     try:
         assert isinstance(janela, int)
         media_movel = coluna.rolling(janela).mean()
-        logging.info("SUCESSO: O valor da janela é %s int", janela)
+        logging.info("SUCESSO: O valor da janela é %s int",janela)
         return media_movel
-    except BaseException:  # pylint: disable=broad-except
+    except: # pylint: disable=broad-except
         logging.error("ERROR: O valor da janela deve ser inteiro!")
         return None

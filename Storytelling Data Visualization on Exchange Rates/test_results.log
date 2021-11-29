@@ -1,11 +1,17 @@
+root - ERROR - ERROR: não foi possível ler o arquivo euro-daily-hist_1999_2020.csv
+root - ERROR - ERROR: não foi possível ler o arquivo euro-daily-hist_1999_2020.csv
+root - ERROR - ERROR: não foi possível ler o arquivo euro-daily-hist_1999_2020.csv
+root - ERROR - ERROR: não foi possível ler o arquivo euro-daily-hist_1999_2020.csv
+root - ERROR - ERROR: não foi possível ler o arquivo euro-daily-hist_1999_2020.csv
+root - ERROR - ERROR: não foi possível ler o arquivo euro-daily-hist_1999_2021.csv
+root - ERROR - ERROR: não foi possível ler o arquivo euro-daily-hist_1999_2020.csv
+root - ERROR - ERROR: não foi possível ler o arquivo euro-daily-hist_1999_2020.csv
 root - INFO - SUCESSO: nenhum problema ao ler o arquivo!
 root - INFO - SUCESSO: nenhum problema ao ler o arquivo!
+numexpr.utils - INFO - NumExpr defaulting to 4 threads.
 root - INFO - SUCESSO: nenhum problema ao ler o arquivo!
-root - INFO - SUCESSO: nenhum problema ao ler o arquivo!
-root - INFO - SUCESSO: nenhum problema ao ler o arquivo!
-root - INFO - SUCESSO: nenhum problema ao ler o arquivo!
-root - INFO - SUCESSO: nenhum problema ao ler o arquivo!
-root - INFO - SUCESSO: nenhum problema ao ler o arquivo!
+root - INFO - SUCESSO: O valor da janela é 30 int
+root - INFO - SUCESSO: O valor da janela é 30 int
 root - INFO - SUCESSO: nenhum problema ao ler o arquivo!
 root - INFO - SUCESSO: O valor da janela é 30 int
 root - INFO - SUCESSO: O valor da janela é 30 int
